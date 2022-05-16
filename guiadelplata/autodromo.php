@@ -18,7 +18,7 @@
     <body >
         <!--=============== HEADER ===============-->
         <header class="container">
-            <h1 style="margin-bottom:35px;">Delta el Tigre</h1>
+            <h1 style="margin-bottom:35px;">Autodromo</h1>
             <div class="tarjeta_comercios">COMERCIOS
             </div>
             <div class="espacio"></div>
