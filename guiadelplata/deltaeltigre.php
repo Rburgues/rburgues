@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>RBurgues Fullstack Web Developer</title>
+    </head>
+    <body class="dark-theme" >
+        <!--=============== HEADER ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <!-- Insert your image, according to the example size of the portfolio -->
+                        </div>
+                    </div>
+                    
+                 <h2 class="profile__name">RBurgues</h2> 
+                 
+                    <h3 class="profile__profession">Desarrollador Web Fullstack</h3>
+
+                    <ul class="profile__social">
+                        <a href="https://www.instagram.com/rburgues_uy/" target="_blank" class="profile__social-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="https://www.facebook.com/rburguesweb" target="_blank" class="profile__social-link">
+                            <i class="ri-facebook-box-line"></i>
+                        </a>
+                        <a href="https://github.com/Rburgues" target="_blank" class="profile__social-link">
+                            <i class="ri-github-line"></i>
+                        </a>
+                    </ul>   
+
+                    <p class="profile__text">Hola! Soy Richard, y vengo a solucionar tus problemas en Internet <span style="color:#0c151d">-</span>:)</br> Me destaco por crear Sitios Web, 
+                   Sistemas para Gestionar Negocios, </br>Aplicaciones Online, y Aplicaciones hibridas para Móviles. </br>Quieres saber más? Revisa mi Sitio Web o escribeme ;)</p>
+
+                </div>
+
+
+                <div class="profile__buttons">
+
+                  <!----------------------------------------- DESCOMENTAR EL BOTON DE DESCARGAR CURRICULUM-------------------------------------->
+                    <!-- Insert your CV -->
+                    <!-- <a download="" href="assets/pdf/Gianell-Cv.pdf" class="button">
+                        Descargar CV <i class="ri-download-line"></i>
+                    </a> -->
+
+                    <div class="profile__buttons-small2">
+                        <!-- Insert a real number plus country code -->
+                        <a href="https://api.whatsapp.com/send?phone=59897078610&text=Hola, escribo desde tu sitio web! Me gustaría ponerme en contacto contigo" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                        <!-- Insert your brand name or profile -->
+                        <a href="https://m.me/rburguesweb" target="_blank" class="button button__small2 button__gray">
+                            <i class="ri-messenger-line"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active" data-target="#projects">
+                        Proyectos
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Habilidades
+                    </button>
+                </ul>
+
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active" data-content id="projects">
+                        <article class="projects__card">
+                            <!-- Insert your image in a rectangular format (Ex: 600 x 400, 1000 x 800, 1200 x 1000, etc) -->
+                            <img src="assets/img/project1.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web App</span>
+                                    <h3 class="projects__title">Demo - Trabajos Taller</h3>
+                                    <a href="https://www.rburgues.com/demos/taller_demo/" target="_blank" class="projects__button button__small">
+                                        <img style="width:55px; height: 58px;" src="assets/img/logo_small.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project2.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web App</span>
+                                    <h3 class="projects__title">Demo - Mayorista</h3>
+                                    <a href="https://www.rburgues.com/demos/mayorista/" target="_blank" class="projects__button button__small">
+                                        <img style="width:55px; height: 58px;" src="assets/img/logo_small.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/project3.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Sitio Web</span>
+                                    <h3 class="projects__title">DiseñoYa!</h3>
+                                    <a href="http://www.diseñoya.uy" target="_blank" class="projects__button button__small">
+                                        <img style="width:55px; height: 58px;" src="assets/img/logo_small.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    
+                        <article class="projects__card">
+                            <img src="assets/img/project4.jpg" alt="" class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Demo</span>
+                                    <h3 class="projects__title">CRUD con Imagenes</h3>
+                                    <a href="https://www.rburgues.com/demos/crud_demo/Empleados/index.php" target="_blank" class="projects__button button__small">
+                                        <img style="width:55px; height: 58px;" src="assets/img/logo_small.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        
+              
+                        
+                    </div>
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">Frontend</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">CSS</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">JavaScript</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Bootstrap</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Git</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">Backend</h3>
+    
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">PHP</h3>
+                                            <span class="skills__level">Avanzado</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">MySQL</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Firebase</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Basico</span>
+                                        </div>
+                                    </div>
+        
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+        
+                                        <div>
+                                            <h3 class="skills__name">Node Js</h3>
+                                            <span class="skills__level">Intermedio</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                
+                <img style="width:32px; height: 32px; vertical-align: middle; margin-right: 10px;;" src="assets/img/logo_small.png" alt="">
+                    RBurgues. Derechos Reservados
+            </span>
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
