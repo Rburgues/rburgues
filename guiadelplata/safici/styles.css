@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: #FFF;
+    color: black;    
+}
+.container {
+    padding-top: 60px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 45px;
+}
+
+.espacio {
+    height: 35px;
+    width: 100%;
+}
+.tarjeta_comercios {
+    width: 90%;
+    height: 140px;
+    margin: auto;
+    background-color: rgb(168, 168, 168);
+    border: solid 2px rgb(85, 85, 85);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta_eventos {
+    width: 90%;
+    height: 140px;
+    margin: auto;
+    background-color: rgb(189, 175, 214);
+    border: solid 2px rgb(85, 85, 85);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta_servicios {
+    width: 90%;
+    height: 140px;
+    margin: auto;
+    background-color: rgb(171, 189, 248);
+    border: solid 2px rgb(85, 85, 85);
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFF;
+    align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}

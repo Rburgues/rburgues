@@ -11,14 +11,14 @@
         <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="autodromo/styles.css">
+        <link rel="stylesheet" href="las_violetas/styles.css">
 
         <title>Delta el Tigre</title>
     </head>
     <body >
         <!--=============== HEADER ===============-->
         <header class="container">
-            <h1 style="margin-bottom:35px;">Autodromo</h1>
+            <h1 style="margin-bottom:35px;">Las Violetas</h1>
             <div class="tarjeta_comercios">COMERCIOS
             </div>
             <div class="espacio"></div>

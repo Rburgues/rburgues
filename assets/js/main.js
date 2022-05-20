@@ -51,11 +51,11 @@ themeButton.addEventListener('click', () => {
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '60px',
+    distance: '90px',
     duration: 2500,
     delay: 400,
 })
-
+sr.reveal('.btn')
 sr.reveal(`.profile__border`)
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
@@ -65,3 +65,4 @@ sr.reveal(`.profile__info-group`, {interval: 100, delay: 800})
 sr.reveal(`.profile__buttons`, {delay: 900})
 sr.reveal(`.filters__content`, {delay: 1000})
 sr.reveal(`.filters`, {delay: 1100})
+

@@ -70,6 +70,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 img {
@@ -80,9 +81,9 @@ img {
 /*=============== THEME ===============*/
 .change-theme {
   position: absolute;
-  top: 1.5rem;
+  top: 3.5rem;
   right: 0;
-  font-size: 1.25rem;
+  font-size: 1.6rem;
   color: var(--title-color);
   cursor: pointer;
   transition: .3s;
@@ -112,6 +113,21 @@ body.dark-theme {
   background-color: hsl(var(--hue), 24%, 16%);
 }
 
+.dark-theme .btn span{
+  background-color: var(--text-color);
+}
+
+.dark-theme .btn.active .top{
+  background-color: var(--text-color);
+}
+
+.dark-theme .btn.active .bottom{
+  background-color: var(--text-color);
+}
+.dark-theme .nav-bar li{
+  color: var(--text-color);
+}
+
 .dark-theme .filters__content {
   background-color: var(--container-color);
 }
@@ -139,6 +155,7 @@ body.dark-theme {
   display: grid;
   gap: 1.5rem;
 }
+
 
 /*=============== PROFILE ===============*/
 .profile {
@@ -188,6 +205,7 @@ body.dark-theme {
   border-radius: 50%;
   display: grid;
   place-items: center;
+  margin-top: 2rem;
   margin-bottom: .75rem;
 }
 
@@ -481,13 +499,190 @@ body.dark-theme {
   background-color: hsl(var(--hue), 8%, 44%);
 }
 
+
+
+.hvr-underline-from-center {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgb(0 0 0 / 0%);
+  position: relative;
+  overflow: hidden;
+}
+
+
+/*********************  MENU HAMBURGUESA *****************************/
+
+
+.hidden {
+  display: none;
+}
+
+.nav-bar {
+  width: 550px;
+  height: 60px;
+  top: 45px;
+  right: 230px;
+  position: absolute;
+  background: transparent;
+  padding-top: 6px;
+}
+
+.nab-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.nav-bar li:nth-child(1) {
+  margin-left: 0;
+}
+
+.btn {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  height: 27px;
+  width: 35px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .15s ease;
+}
+
+.btn span {
+  background: #444;
+  border: none;
+  height: 5px;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.btn .middle {
+  top: 11px;
+}
+
+.btn .bottom {
+  top: 22px;
+}
+
+.btn.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #444;
+}
+
+.btn.active .middle {
+  opacity: 0;
+  background: #444;
+}
+
+.btn.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #444;
+}
+
+
+
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
   }
+
+
+  /**************** MENU HASTA 320 ******************/
+  
+  
+  .nav-bar {
+    width: 259px;
+    height: 60px;
+    top: 10px;
+    right: 19px;
+    position: absolute;
+    background: transparent;
+    padding-top: 6px;
+  }
+  
+  .nab-bar ul {
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+  }
+  
+  .nav-bar li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    height: 13px;
+    width: 25px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .15s ease;
+  }
+  
+  .btn span {
+    background: #444;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+  
+  .btn .middle {
+    top: 11px;
+  }
+  
+  .btn .bottom {
+    top: 22px;
+  }
+  
+  .btn.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #444;
+  }
+  
+  .btn.active .middle {
+    opacity: 0;
+    background: #444;
+  }
+  
+  .btn.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #444;
+  }
+
+/*************** TERMINA MENU HAMBURGUESA  *****************/
+
 
   .profile__info {
     column-gap: 1.5rem;
@@ -502,18 +697,226 @@ body.dark-theme {
   }
 }
 
+
+
+
+/* For small devices */
+@media screen and (min-width: 400px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+
+  /**************** MENU 400 ******************/
+  .change-theme {
+    position: absolute;
+    top: 3.5rem;
+    right: -55px;
+    font-size: 1.6rem;
+    color: var(--title-color);
+    cursor: pointer;
+    transition: .3s;
+  }
+  
+  .nav-bar {
+    width: 261px;
+    height: 64px;
+    top: 19px;
+    right: 55px;
+    position: absolute;
+    background: transparent;
+    padding-top: 6px;
+  }
+  
+  .nab-bar ul {
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+  }
+  
+  .nav-bar li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    height: 13px;
+    width: 25px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .15s ease;
+  }
+  
+  .btn span {
+    background: #444;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+  
+  .btn .middle {
+    top: 11px;
+  }
+  
+  .btn .bottom {
+    top: 22px;
+  }
+  
+  .btn.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #444;
+  }
+  
+  .btn.active .middle {
+    opacity: 0;
+    background: #444;
+  }
+  
+  .btn.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #444;
+  }
+
+/*************** TERMINA MENU HAMBURGUESA  *****************/
+
+
+  .profile__info {
+    column-gap: 1.5rem;
+  }
+  .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .skills__box {
+    column-gap: 1rem;
+  }
+}
+
+
+
+
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 517px) {
   .projects__content {
-    grid-template-columns: 332px;
+    grid-template-columns: 517px;
     justify-content: center;
   }
 
   .filters__content {
-    width: 332px;
+    width: 517px;
     margin: 3rem auto;
   }
+
+
+ /**************** MENU 517 ******************/
+  
+ .change-theme {
+  position: absolute;
+  top: 3.5rem;
+  right: 0px;
+  font-size: 1.6rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: .3s;
 }
+
+ .nav-bar {
+  width: 445px;
+  height: 60px;
+  top: 24px;
+  right: 19px;
+  position: absolute;
+  background: transparent;
+  padding-top: 6px;
+}
+
+.nab-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.nav-bar li:nth-child(1) {
+  margin-left: 0;
+}
+
+.btn {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+  height: 13px;
+  width: 25px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .15s ease;
+}
+
+.btn span {
+  background: #444;
+  border: none;
+  height: 5px;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.btn .middle {
+  top: 11px;
+}
+
+.btn .bottom {
+  top: 22px;
+}
+
+.btn.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #444;
+}
+
+.btn.active .middle {
+  opacity: 0;
+  background: #444;
+}
+
+.btn.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #444;
+}
+
+/*************** TERMINA MENU HAMBURGUESA  *****************/
+
+}
+
+
+
 
 @media screen and (min-width: 776px) {
   .projects__content,
@@ -525,6 +928,117 @@ body.dark-theme {
     justify-content: center;
     column-gap: 3rem;
   }
+
+
+
+
+/* For medium devices */
+@media screen and (min-width: 517px) {
+  .projects__content {
+    
+    justify-content: center;
+  }
+
+  .filters__content {
+    width: 332px;
+    margin: 3rem auto;
+  }
+
+
+ /**************** MENU 517 ******************/
+  
+ .change-theme {
+  position: absolute;
+  top: 3.5rem;
+  right: 130px;
+  font-size: 1.6rem;
+  color: var(--title-color);
+  cursor: pointer;
+  transition: .3s;
+}
+
+ .nav-bar {
+  width: 565px;
+  height: 60px;
+  top: 24px;
+  right: 19px;
+  position: absolute;
+  background: transparent;
+  padding-top: 6px;
+}
+
+.nab-bar ul {
+  list-style: none;
+}
+
+.nav-bar li {
+  display: inline-block;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #444;
+}
+
+.nav-bar li:nth-child(1) {
+  margin-left: 0;
+}
+
+.btn {
+  position: absolute;
+  top: 30px;
+  right: 150px;
+  height: 13px;
+  width: 25px;
+  cursor: pointer;
+  z-index: 100;
+  transition: opacity .15s ease;
+}
+
+.btn span {
+  background: #444;
+  border: none;
+  height: 5px;
+  width: 100%;
+  border-radius: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all .15s ease;
+  cursor: pointer;
+}
+
+.btn .middle {
+  top: 11px;
+}
+
+.btn .bottom {
+  top: 22px;
+}
+
+.btn.active .top {
+  transform: translateY(11px) translateX(0) rotate(45deg);
+  background: #444;
+}
+
+.btn.active .middle {
+  opacity: 0;
+  background: #444;
+}
+
+.btn.active .bottom {
+  transform: translateY(-11px) translateX(0) rotate(-45deg);
+  background: #444;
+}
+
+/*************** TERMINA MENU HAMBURGUESA  *****************/
+
+}
+
+
+
+
+
 }
 
 /* For large devices */
@@ -534,13 +1048,95 @@ body.dark-theme {
     margin-right: auto;
   }
 
+
+
+  .hidden {
+    display: none;
+  }
+  
+  .nav-bar {
+    width: 550px;
+    height: 60px;
+    top: 45px;
+    right: 230px;
+    position: absolute;
+    background: transparent;
+    padding-top: 6px;
+  }
+  
+  .nab-bar ul {
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+  }
+  
+  .nav-bar li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .15s ease;
+  }
+  
+  .btn span {
+    background: #444;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+  
+  .btn .middle {
+    top: 11px;
+  }
+  
+  .btn .bottom {
+    top: 22px;
+  }
+  
+  .btn.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #444;
+  }
+  
+  .btn.active .middle {
+    opacity: 0;
+    background: #444;
+  }
+  
+  .btn.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #444;
+  }
+
+
+
   .change-theme {
-    top: 2.5rem;
-    right: 2.5rem;
+    top: 0.5rem;
+    right: -3.5rem;
   }
 
   .profile {
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
   .profile__border {
     width: 320px;
