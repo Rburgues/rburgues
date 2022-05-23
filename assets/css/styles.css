@@ -18,7 +18,7 @@
   --first-color: hsl(var(--hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
   --title-color: hsl(var(--hue), 12%, 15%);
-  --text-color: hsl(var(--hue), 12%, 45%);
+  --text-color: hsl(var(--hue), 12%, 35%);
   --text-color-light: hsl(var(--hue), 8%, 75%);
   --text-color-lighten: hsl(var(--hue), 8%, 92%);
   --body-color: hsl(var(--hue), 100%, 99%);
@@ -56,13 +56,79 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  transition: .3s; /* For animation dark mode */
+  transition: .5s; /* For animation dark mode */
 }
 
 h1, h2, h3 {
+  font-family:  "Montserrat", sans-serif; 
   color: var(--title-color);
   font-weight: 600;
 }
+
+/*=============== INDEX ===============*/
+.bg{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -99999;
+  background-image: url(../img/bg.png);
+  background-size:cover;
+}
+
+.caja_portada{
+  width: 100%;
+  margin: auto;
+  text-align: left;
+  margin-top: 4rem;
+
+}
+
+#col_izquierda {
+  visibility: hidden;
+}
+
+.col_izquierda {
+  width: 60%;
+  font-size: 50px;
+  line-height: 100px;
+  float: left;
+  padding-right: 90px;
+  padding-left: 25px;
+}
+
+#bienvenida{
+  margin-left:-20px;
+  font-size: 20px;
+}
+
+#sub_titulo{
+  font-size: 28px;
+  margin-left: 145px;
+}
+
+.titular_img{   
+  width: 40%;
+  float: right;
+}
+
+.logo_inicio{
+  width: 100%;
+  margin-top: 30px;
+}
+.btn_inicio {
+  width: 300px;
+  height: 60px;
+  line-height: 55px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -50px;
+  border: solid 3px #2098d1;
+  border-radius: 10px;
+}
+
+
+/*=============== FIN INDEX ===============*/
 
 ul {
   list-style: none;
@@ -70,7 +136,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--text-color);
+  color: var(--tittle-color);
 }
 
 img {
@@ -86,7 +152,7 @@ img {
   font-size: 1.6rem;
   color: var(--title-color);
   cursor: pointer;
-  transition: .3s;
+  transition: .5s;
 }
 
 .change-theme:hover {
@@ -105,6 +171,10 @@ body.dark-theme {
     Color changes in some parts of 
     the website, in light theme
 ==========*/
+
+.dark-theme .bg{
+  opacity: 0.1;
+}
 .dark-theme .button__gray {
   background-color: var(--container-color);
 }
@@ -146,7 +216,7 @@ body.dark-theme {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
-  max-width: 968px;
+  max-width: 1280px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -166,6 +236,18 @@ body.dark-theme {
 .profile__container {
   row-gap: 2rem;
 }
+
+.bg_index {
+  width: 90%;
+  height: 480px;
+  z-index: -999;
+  background-color:var(--body-color);
+  position: absolute;
+  top:21%;
+  left: -15%;
+  border-radius: 25px;
+}
+
 
 .profile__data {
   display: grid;
@@ -475,12 +557,15 @@ body.dark-theme {
 }
 
 /*=============== FOOTER ===============*/
-.footer__copy {
-  display: block;
-  margin: 2.5rem 0 2rem;
+.footer {
+  position:fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: -999999;
+  margin: 0 auto;
   text-align: center;
   font-size: var(--smaller-font-size);
-  color: var(--text-color-light);
+  color: var(--title-color);
 }
 
 /*=============== SCROLL BAR ===============*/
@@ -1049,7 +1134,6 @@ body.dark-theme {
   }
 
 
-
   .hidden {
     display: none;
   }
@@ -1081,7 +1165,7 @@ body.dark-theme {
     margin-left: 0;
   }
   
-  .btn {
+  .btn_menu {
     position: absolute;
     top: 50px;
     right: 100px;
@@ -1092,8 +1176,8 @@ body.dark-theme {
     transition: opacity .15s ease;
   }
   
-  .btn span {
-    background: #444;
+  .btn_menu span {
+    background: #2098d1;
     border: none;
     height: 5px;
     width: 100%;
@@ -1105,27 +1189,27 @@ body.dark-theme {
     cursor: pointer;
   }
   
-  .btn .middle {
+  .btn_menu .middle {
     top: 11px;
   }
   
-  .btn .bottom {
+  .btn_menu .bottom {
     top: 22px;
   }
   
-  .btn.active .top {
+  .btn_menu.active .top {
     transform: translateY(11px) translateX(0) rotate(45deg);
-    background: #444;
+    background: #2098d1;
   }
   
-  .btn.active .middle {
+  .btn_menu.active .middle {
     opacity: 0;
-    background: #444;
+    background: #2098d1;
   }
   
-  .btn.active .bottom {
+  .btn_menu.active .bottom {
     transform: translateY(-11px) translateX(0) rotate(-45deg);
-    background: #444;
+    background: #2098d1;
   }
 
 

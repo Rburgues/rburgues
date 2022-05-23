@@ -1,4 +1,4 @@
-$(".btn").click(function() {
+$(".btn_menu").click(function() {
 
   var options = {
     direction: "right"
@@ -10,6 +10,6 @@ $(".btn").click(function() {
 
 });
 
-$(".btn").click(function() {
+$(".btn_menu").click(function() {
   $(this).toggleClass("active");
 });

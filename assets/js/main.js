@@ -57,6 +57,7 @@ const sr = ScrollReveal({
 })
 sr.reveal('.btn')
 sr.reveal(`.profile__border`)
+sr.reveal(`.cajas_servicio`)
 sr.reveal(`.profile__name`, {delay: 500})
 sr.reveal(`.profile__profession`, {delay: 600})
 sr.reveal(`.profile__text`, {delay: 700})
