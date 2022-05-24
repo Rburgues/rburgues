@@ -113,7 +113,7 @@ h1, h2, h3 {
 
 .logo_inicio{
   width: 100%;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 .btn_inicio {
   width: 300px;
@@ -126,7 +126,6 @@ h1, h2, h3 {
   border: solid 3px #2098d1;
   border-radius: 10px;
 }
-
 
 /*=============== FIN INDEX ===============*/
 
@@ -226,7 +225,6 @@ body.dark-theme {
   gap: 1.5rem;
 }
 
-
 /*=============== PROFILE ===============*/
 .profile {
   position: relative;
@@ -243,11 +241,10 @@ body.dark-theme {
   z-index: -999;
   background-color:var(--body-color);
   position: absolute;
-  top:21%;
+  top:20%;
   left: -15%;
   border-radius: 25px;
 }
-
 
 .profile__data {
   display: grid;
@@ -363,7 +360,6 @@ body.dark-theme {
 .profile__buttons-small {
   column-gap: 1rem;
 }
-
 
 /*=============== BUTTONS ===============*/
 .button {
@@ -584,8 +580,6 @@ body.dark-theme {
   background-color: hsl(var(--hue), 8%, 44%);
 }
 
-
-
 .hvr-underline-from-center {
   display: inline-block;
   vertical-align: middle;
@@ -596,9 +590,7 @@ body.dark-theme {
   overflow: hidden;
 }
 
-
 /*********************  MENU HAMBURGUESA *****************************/
-
 
 .hidden {
   display: none;
@@ -678,8 +670,6 @@ body.dark-theme {
   background: #444;
 }
 
-
-
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
 @media screen and (min-width: 320px) {
@@ -688,8 +678,74 @@ body.dark-theme {
     margin-right: 1rem;
   }
 
+  .profile__info {
+    column-gap: 1.5rem;
+  }
+  .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
 
-  
+  .skills__box {
+    column-gap: 1rem;
+  }
+}
+
+/* For small devices */
+@media screen and (min-width: 400px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .profile__info {
+    column-gap: 1.5rem;
+  }
+  .profile__buttons {
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+
+  .skills__box {
+    column-gap: 1rem;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 517px) {
+  .projects__content {
+    grid-template-columns: 517px;
+    justify-content: center;
+  }
+
+  .filters__content {
+    width: 517px;
+    margin: 3rem auto;
+  }
+}
+
+@media screen and (min-width: 776px) {
+  .projects__content,
+  .skills__content {
+    grid-template-columns: repeat(2, 332px);
+  }
+
+  .skills__content {
+    justify-content: center;
+    column-gap: 3rem;
+  }
+
+/* For medium devices */
+@media screen and (min-width: 517px) {
+  .projects__content {
+    
+    justify-content: center;
+  }
+
+  .filters__content {
+    width: 332px;
+    margin: 3rem auto;
+  }
 
 /* For large devices */
 @media screen and (min-width: 992px) {
@@ -698,6 +754,9 @@ body.dark-theme {
     margin-right: auto;
   }
 
+/*********************************************************************************************/
+/************************************ MENU 1080P   ********************************************/
+/*********************************************************************************************/
 
   .hidden {
     display: none;
@@ -777,15 +836,13 @@ body.dark-theme {
     background: #2098d1;
   }
 
-
-
   .change-theme {
     top: 0.5rem;
     right: -3.5rem;
   }
 
   .profile {
-    padding-top: 7rem;
+    padding-top: 8rem;
   }
   .profile__border {
     width: 320px;
@@ -877,5 +934,6 @@ body.dark-theme {
   .footer__copy {
     margin: 4.5rem 0 2.5rem;
   }
+}
 }
 }
