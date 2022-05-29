@@ -260,6 +260,8 @@ slideRight
 	}
 }
 
+
+
 /*
 ==============================================
 slideExpandUp
@@ -351,8 +353,8 @@ expandUp
 	animation-name: expandUp;
 	-webkit-animation-name: expandUp;	
 
-	animation-duration: 0.7s;	
-	-webkit-animation-duration: 0.7s;
+	animation-duration: 1.0s;	
+	-webkit-animation-duration: 1.0s;
 
 	animation-timing-function: ease;	
 	-webkit-animation-timing-function: ease;		
@@ -777,8 +779,8 @@ floating
 	animation-name: floating;
 	-webkit-animation-name: floating;
 
-	animation-duration: 1.5s;	
-	-webkit-animation-duration: 1.5s;
+	animation-duration: 3.5s;	
+	-webkit-animation-duration: 3.5s;
 
 	animation-iteration-count: infinite;
 	-webkit-animation-iteration-count: infinite;
@@ -789,7 +791,7 @@ floating
 		transform: translateY(0%);	
 	}
 	50% {
-		transform: translateY(8%);	
+		transform: translateY(-2%);	
 	}	
 	100% {
 		transform: translateY(0%);
@@ -801,7 +803,7 @@ floating
 		-webkit-transform: translateY(0%);	
 	}
 	50% {
-		-webkit-transform: translateY(8%);	
+		-webkit-transform: translateY(2%);	
 	}	
 	100% {
 		-webkit-transform: translateY(0%);
