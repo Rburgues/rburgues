@@ -1,0 +1,414 @@
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  /*
+      Blue: hsl(207, 90%, 61%)
+      Purple: hsl(250, 66%, 75%)
+      Pink: hsl(356, 66%, 75%)
+      Teal: hsl(174, 63%, 62%)
+  */
+
+  --hue: 207;
+  --sat: 90%;
+  --lig: 61%;
+  --first-color: hsl(var(--hue), var(--sat), var(--lig));
+  --first-color-alt: hsl(var(--hue), var(--sat), 57%); /* -4% */
+  --title-color: hsl(var(--hue), 12%, 15%);
+  --text-color: hsl(var(--hue), 12%, 35%);
+  --text-color-light: hsl(var(--hue), 8%, 75%);
+  --text-color-lighten: hsl(var(--hue), 8%, 92%);
+  --body-color: hsl(var(--hue), 100%, 99%);
+  --container-color: #fff;
+}
+/********************* INDEX *********************/
+/********************* INDEX *********************/
+/********************* INDEX *********************/
+/********************* INDEX *********************/
+
+/* PARA PANTALLAS DE MOVILES */
+
+@media screen and (min-width: 320px) and (max-width: 400px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /***********   MENU   **************/
+  /***********   MENU   **************/
+  /***********   MENU   **************/
+
+  
+  .nav-bar {
+    width: 260px;
+    height: 60px;
+    top: 10px;
+    right: 54px;
+    position: absolute;
+    background: transparent;
+    padding-top: 6px;
+  }
+  
+  .nab-bar ul {
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+  }
+  
+  .nav-bar li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .btn_menu {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    height: 13px;
+    width: 25px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .15s ease;
+  }
+  
+  .btn_menu span {
+    background: #2098d1;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+  
+  .btn_menu .middle {
+    top: 11px;
+  }
+  
+  .btn_menu .bottom {
+    top: 22px;
+  }
+  
+  .btn_menu.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #2098d1;
+  }
+  
+  .btn_menu.active .middle {
+    opacity: 0;
+    background: #2098d1;
+  }
+  
+  .btn_menu.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #2098d1;
+  }
+
+  .change-theme {
+    position: absolute;
+    top: 4rem;
+    right: -32px;
+    font-size: 1.3rem;
+    color: var(--title-color);
+    cursor: pointer;
+    transition: .5s;
+  }
+
+
+  /**************  FIN MENU   **************/
+  /**************  FIN MENU   **************/
+  /**************  FIN MENU   **************/
+  body{
+    padding-left: 10px;
+  }
+  h1{
+    font-family:  "Montserrat", sans-serif; 
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 15px;
+  }
+  .bg{
+    width: 0%;
+    height: 0%;
+
+     }
+
+  .bg_index {
+  width: 0px;  
+  height: 0%;
+
+  }
+  
+  .caja_portada{
+    width: 400px;
+    margin: auto;
+    text-align: left;
+    margin-top: 4rem;
+  
+  }
+  
+  #col_izquierda {
+    visibility: hidden;
+  }
+  
+  .col_izquierda {
+    width: 100%;
+    line-height: 40px;
+    text-align: center;
+
+  }
+  
+  #bienvenida{
+    width: 350px;
+    font-size: 14px;
+    margin-left: -30px;
+    margin-bottom: 30px;
+    line-height: normal;
+    text-align: center;
+  }
+  
+  #sub_titulo{
+    font-size: 16px;
+    line-height: normal;
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  
+  .titular_img{   
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+    margin: 0 auto;
+  }
+  
+  .logo_inicio{
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 35px;
+  }
+
+
+  .btn_inicio {
+    width: 180px;
+    height: 40px;
+    line-height: 35px;
+    font-size: 14px;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: 5px;
+    border: solid 3px #2098d1;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    position:fixed;
+    bottom: 20px;
+    left: 0px;
+    z-index: -999999;
+    margin: 0 auto;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    color: var(--title-color);
+  }
+
+}
+
+
+/* PARA LAPTOPS Y MONITORES HD */
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /***********   MENU   **************/
+  /***********   MENU   **************/
+  /***********   MENU   **************/
+
+  
+  .hidden {
+    display: none;
+  }
+  
+  .nav-bar {
+    width: 550px;
+    height: 60px;
+    top: 45px;
+    right: 230px;
+    position: absolute;
+    background: transparent;
+    padding-top: 6px;
+  }
+  
+  .nab-bar ul {
+    list-style: none;
+  }
+  
+  .nav-bar li {
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #444;
+  }
+  
+  .nav-bar li:nth-child(1) {
+    margin-left: 0;
+  }
+  
+  .btn_menu {
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    height: 27px;
+    width: 35px;
+    cursor: pointer;
+    z-index: 100;
+    transition: opacity .15s ease;
+  }
+  
+  .btn_menu span {
+    background: #2098d1;
+    border: none;
+    height: 5px;
+    width: 100%;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .15s ease;
+    cursor: pointer;
+  }
+  
+  .btn_menu .middle {
+    top: 11px;
+  }
+  
+  .btn_menu .bottom {
+    top: 22px;
+  }
+  
+  .btn_menu.active .top {
+    transform: translateY(11px) translateX(0) rotate(45deg);
+    background: #2098d1;
+  }
+  
+  .btn_menu.active .middle {
+    opacity: 0;
+    background: #2098d1;
+  }
+  
+  .btn_menu.active .bottom {
+    transform: translateY(-11px) translateX(0) rotate(-45deg);
+    background: #2098d1;
+  }
+
+
+
+
+  /**************  FIN MENU   **************/
+  /**************  FIN MENU   **************/
+  /**************  FIN MENU   **************/
+  h1{
+    font-size: 80px;
+    line-height: 80px;
+    
+  }
+
+  .bg_index {
+    width: 90%;
+    height: 370px;
+    z-index: -999;
+    background-color:var(--body-color);
+    position: absolute;
+    top:18%;
+    left: -15%;
+    border-radius: 25px;
+    }
+
+  .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -99999;
+    background-image: url(../img/bg.png);
+    background-size:cover;
+  }
+  
+  .caja_portada{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    margin-top: -1rem;
+  
+  }
+  
+  #col_izquierda {
+    visibility: hidden;
+  }
+  
+  .col_izquierda {
+    width: 65%;
+    font-size: 50px;
+    line-height: 100px;
+    float: left;
+    margin-left: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+  
+  #bienvenida{
+    margin-left:-20px;
+    font-size: 20px;
+  }
+  
+  #sub_titulo{
+    font-size: 24px;
+    margin-left: 200px;
+    line-height: 40px;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+  
+  .titular_img{   
+    width: 30%;
+    float: right;
+  }
+  
+  .logo_inicio{
+    width: 500px;
+    margin-top: 40px;
+    margin-right: 50px;
+    float: right;
+  }
+  .btn_inicio {
+    width: 260px;
+    height: 60px;
+    line-height: 55px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: -30px;
+    border: solid 3px #2098d1;
+    border-radius: 10px;
+  }
+
+}
+
+/********************* SERVICIOS *********************/
+/********************* SERVICIOS *********************/
+/********************* SERVICIOS *********************/
+/********************* SERVICIOS *********************/
