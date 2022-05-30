@@ -445,7 +445,7 @@
 .gnext,
 .gclose {
   z-index: 99999;
-  cursor: pointer;
+  cursor: alias;
   width: 26px;
   height: 44px;
   border: none;
@@ -467,9 +467,11 @@
 .gprev svg,
 .gnext svg,
 .gclose svg {
-  display: block;
-  width: 25px;
-  height: auto;
+  display:block;
+  
+  width: 0px;
+  height: 0px;
+  cursor: alias;
   margin: 0;
   padding: 0;
 }
@@ -545,7 +547,6 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gprev {
-  position: absolute;
   top: -100%;
   left: 30px;
   width: 40px;
@@ -553,7 +554,6 @@ iframe.wait-autoplay {
 }
 
 .glightbox-clean .gnext {
-  position: absolute;
   top: -100%;
   right: 30px;
   width: 40px;
