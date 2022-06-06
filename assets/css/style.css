@@ -66,7 +66,8 @@ a {
 }
 
 a:hover {
-  color: #35e888;
+  color: #005475;
+  ;
   text-decoration: none;
 }
 
@@ -801,6 +802,18 @@ section .container {
 # BLOG personalziado
 --------------------------------------------------------------*/
 
+.blog {
+  top: 100px;
+  bottom: auto;
+  opacity: 1;
+  padding-bottom: 45px;
+  position: absolute;
+  width: 100%;
+  top: 140px;
+  bottom: 100%;
+  transition: ease-in-out 0.4s;
+  z-index: 2;
+}
 
 .btn_cat-container {
   width: 200px;
@@ -817,8 +830,20 @@ section .container {
   font-weight: 600;
   text-transform: capitalize;
   cursor: pointer;
-  background-color: #0c151d00;
-  color: #e4e4e4;
+  background-color:azure;
+  color: #000000;
+  border: none;
+}
+
+.btn_cat:hover {
+  margin: 5px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  background-color:azure;
+  color: #0051bb;
+  border: none;
 }
 
 .container_blog {
@@ -828,7 +853,7 @@ section .container {
   grid-template-rows: repeat(5, 220px);
   column-gap: 15px;
   row-gap: 25px;
-  color: #fff;
+  color: rgb(0, 0, 0);
 }
 
 .filtered-div {
@@ -838,29 +863,14 @@ section .container {
   height:210px;
   align-items: center;
   font-size: 3rem;
-  font-weight: bold;
-  font-family: 'Arial', Courier, monospace;
+  font-weight: 500;
   text-align: left;
   padding-left:1rem;
-  text-transform: capitalize;
   border-bottom-right-radius: 25px;
   border-top-left-radius: 25px;
  
 }
 
-[data-car] {
-  background-color: coral;
-   
-}
-
-[data-color] {
-  background-color: cornflowerblue;
-}
-
-[data-movie] {
-  background-color: crimson;
-}
- 
 .show {
   display: block;
   
