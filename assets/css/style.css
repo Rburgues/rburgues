@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: rgb(255, 255, 255);
   position: relative;
-  background-color: #0c151d;
+  background-color: #000000;
   background-image: url("../img/bg.jpg");
   background-size:cover;
   background-repeat: no-repeat;
@@ -33,7 +33,7 @@ body::before {
     font-family: "Open Sans", sans-serif;
     color: rgb(255, 255, 255);
     position: relative;
-    background-color: #0c151d;
+    background-color: #000000;
     background-image: url("../img/bg.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -46,7 +46,7 @@ body::before {
     font-family: "Open Sans", sans-serif;
     color: rgb(255, 255, 255);
     position: relative;
-    background-color: #0c151d;
+    background-color: #000000;
     background-image: url("../img/bg2.jpg");
     background-size:cover;
     background-repeat: no-repeat;
@@ -414,12 +414,12 @@ section .container {
 }
 .section-title h2::after {
   content: "";
-  width: 100%;
+  width: 93%;
   height: 1px;
   display: inline-block;
   background: #0099d4;
   margin: 4px 10px;
-  left: 85px;
+  left: 90px;
   position: relative;
 }
 
@@ -561,6 +561,7 @@ section .container {
 }
 .tabla_lenguajes{
   margin-top: 20px;
+  margin-left: 10%;
 }
 .ramas_lenguajes{
   font-size: 26px;
@@ -601,6 +602,7 @@ section .container {
 
 .fila_lenguajes{
   margin-bottom: 15px;
+  margin-left: 10%;
 }
 
 .fila_lenguajes_btm{
@@ -1050,6 +1052,7 @@ section .container {
   padding-bottom: 40px;
 }
 .portfolio-details .portfolio-title {
+  color: #fff;
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -1058,8 +1061,9 @@ section .container {
   padding-top: 45px;
 }
 .portfolio-details .portfolio-info h3 {
+  color: #0099d4;
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 600;
   margin-bottom: 20px;
 }
 .portfolio-details .portfolio-info ul {
