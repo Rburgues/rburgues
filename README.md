@@ -1,7 +1,6 @@
-### Hi there 👋
+### Hola 👋
 
-Color Background de la web #0c151d
-
+Este es mi sitio web personal, donde dejos todos los medios de contacto y mis proyectos a lo largo del tiempo
 <!--
 **Rburgues/rburgues** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
