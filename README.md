@@ -1,6 +1,11 @@
 ### Hola 👋
 
 Este es mi sitio web personal, donde dejos todos los medios de contacto y mis proyectos a lo largo del tiempo
+
+Puedes visitar mi Sitio Web Personal en: https://www.rburgues.com<br>
+Puedes visitar mi facebook https://facebook.com/rburguesweb<br>
+Puedes visitar mi perfil de Instagram https://www.instagram.com/rburgues_uy/<br>
+Puedes visitar mi perfil de LinkedIn: https://www.linkedin.com/in/rburgues/<br>
 <!--
 **Rburgues/rburgues** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
