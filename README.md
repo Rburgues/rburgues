@@ -5,20 +5,19 @@
 
 
 <p align="center"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
-<div align="center" style="margin-top: 30px;">
-- 🔭 I’m currently working on **PinkFloyd Experience Band, Web Site**
+<div align="center" style="margin-top: 30px;"> 🔭 I’m currently working on **PinkFloyd Experience Band, Web Site**
 
-- 🌱 I’m currently learning **Typescript, English Language**
+🌱 I’m currently learning **Typescript, English Language**
 
-- 👯 I’m looking to collaborate on [Play Expert E-commerce Site](https://github.com/pccomponentshenry?tab=repositories)
+ 👯 I’m looking to collaborate on [Play Expert E-commerce Site](https://github.com/pccomponentshenry?tab=repositories)
 
-- 👨‍💻 All of my projects are available at [www.rburgues.com](www.rburgues.com)
+ 👨‍💻 All of my projects are available at [www.rburgues.com](www.rburgues.com)
 
-- 💬 Ask me about **React, Javascript, CSS, HTML, PHP, Wordpress, and Graphic Design**
+ 💬 Ask me about **React, Javascript, CSS, HTML, PHP, Wordpress, and Graphic Design**
 
-- 📫 How to reach me **rsebaburgues@gmail.com**
+📫 How to reach me **rsebaburgues@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/rburgues/](https://www.linkedin.com/in/rburgues/)
+ 📄 Know about my experiences [https://www.linkedin.com/in/rburgues/](https://www.linkedin.com/in/rburgues/)
 </div>
 
 <h3 align="left">Connect with me:</h3>
