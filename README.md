@@ -5,7 +5,7 @@
 
 
 <p align="center"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
-<div align="center">
+<div align="center" style="margin-top: 30px;">
 - 🔭 I’m currently working on **PinkFloyd Experience Band, Web Site**
 
 - 🌱 I’m currently learning **Typescript, English Language**
@@ -20,6 +20,7 @@
 
 - 📄 Know about my experiences [https://www.linkedin.com/in/rburgues/](https://www.linkedin.com/in/rburgues/)
 </div>
+
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://codepen.io/https://codepen.io/seba-burgues" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/seba-burgues" height="30" width="40" /></a>
