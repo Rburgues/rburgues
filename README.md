@@ -3,8 +3,9 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=rburgues&label=Profile%20views&color=0e75b6&style=flat" alt="rburgues" /> </p>
 
-
+<br/>
 <p align="center"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
+<br/>
 <br/>
 <div align="center">
  
@@ -22,7 +23,8 @@
 
  📄 Know about my experiences [https://www.linkedin.com/in/rburgues/](https://www.linkedin.com/in/rburgues/)
 </div>
-
+<br/>
+<br/>
 <h3 align="center" style="margin-top:40px;">Connect with me:</h3>
 <p align="center">
 <a href="https://codepen.io/https://codepen.io/seba-burgues" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/seba-burgues" height="30" width="40" /></a>
