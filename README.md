@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Richard Burgues!</h1>
 <h3 align="center">Im FullStack Developer about HTML | CSS | SASS | React | Redux | Javascript | Node Js | Express | Sequelize | PostgreSQL... Seeking full-time oportunity from Uruguay!</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rburgues&label=Profile%20views&color=0e75b6&style=flat" alt="rburgues" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=rburgues&label=Profile%20views&color=0e75b6&style=flat" alt="rburgues" /> </p>
 
 
 <p align="left"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
