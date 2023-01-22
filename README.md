@@ -4,7 +4,7 @@
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=rburgues&label=Profile%20views&color=0e75b6&style=flat" alt="rburgues" /> </p>
 
 
-<p align="left"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
+<p align="center"> <a href="https://twitter.com/rburguesweb" target="blank"></a> </p>
 
 - 🔭 I’m currently working on **PinkFloyd Experience Band, Web Site**
 
