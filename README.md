@@ -13,7 +13,7 @@
  
  🔭 I’m currently working on **PinkFloyd Experience Band, Web Site**
 
-🌱 I’m currently learning **Typescript, English Language**
+🌱 I’m currently learning **Dart & Flutter, English Language**
 
  👯 I collaborated with [Play Expert E-commerce Site](https://github.com/pccomponentshenry?tab=repositories)
 
