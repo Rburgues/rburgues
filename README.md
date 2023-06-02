@@ -17,7 +17,7 @@
 
  👯 I collaborated with [Play Expert E-commerce Site](https://github.com/pccomponentshenry?tab=repositories)
 
- 👨‍💻 All of my projects are available at [https://rburgues.onrender.com/](My Personal Portfolio)
+ 👨‍💻 All of my projects are available at [My Personal Portfolio](https://rburgues.onrender.com/)
 
  💬 Ask me about **React, Javascript, CSS, HTML, PHP, Wordpress, and Graphic Design**
 
