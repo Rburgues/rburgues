@@ -55,6 +55,3 @@
  <a href="https://unity.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/unity3d/unity3d-icon.svg" alt="unity" width="40" height="40"/> </a> <a href="https://www.adobe.com/products/xd.html" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/adobe-xd.svg" alt="xd" width="40" height="40"/> </a> </div>
 <br/>
 <br/>
-<h3 align="center">Support:</h3>
-<p align="center"> <img align="center" src="https://scontent.fmvd1-1.fna.fbcdn.net/v/t39.30808-6/327042455_555575263258842_5666080402545868536_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_ohc=M4KIj6nFAAsAX_43iUK&_nc_ht=scontent.fmvd1-1.fna&oh=00_AfCxrAjjrD_u9OazlDa5F8PZXL_UQoeNYI5p_9r_PS4TCQ&oe=63D37EEF" height="150" width="500" alt="rburgues" /></p><br><br>
-
