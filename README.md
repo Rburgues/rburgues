@@ -29,7 +29,7 @@
 <br/>
 <h3 align="center" style="margin-top:40px;">Connect with me:</h3>
 <p align="center">
-<a href="https://codepen.io/https://codepen.io/seba-burgues" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/seba-burgues" height="30" width="40" /></a>
+<a href="https://codepen.io/seba-burgues" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/seba-burgues" height="30" width="40" /></a>
 <a href="https://twitter.com/rburguesweb" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="rburguesweb" height="30" width="40" /></a>
 <a href="https://linkedin.com/in/https://www.linkedin.com/in/rburgues/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/rburgues/" height="30" width="40" /></a>
 <a href="https://fb.com/https://www.facebook.com/rburguesweb/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/rburguesweb/" height="30" width="40" /></a>
